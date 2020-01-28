@@ -25,6 +25,7 @@ SECRET_KEY = '344npoonzu!l7(-td92tnbp8jq0=rg!z^d+hogr&@b@cmrlko@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get("DEBUG", 1)))
 
+# awsのIPを指定["aws ip", "127.0.0.1"]
 ALLOWED_HOSTS = ["0.0.0.0"]
 
 
